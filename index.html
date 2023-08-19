@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Your+Selected+Google+Font" rel="stylesheet">
+    <title>Library System</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#books"><u>Books</u></a></li>
+            <li><a href="#registration"><u>Register</u></a></li>
+            <li id="contact"><u>Contact Us</u></li>
+            <li id="logout"><u>logout</u></li>
+        </ul>
+    </nav><br><br>
+
+    <section id="books">
+        <center><u><h1>BOOKS</h1></u></center>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date:</td>
+                                <td>2022-01-15</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:</td>
+                                <td>320</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>978-1234567890</td>
+                            </tr>
+                        </table>
+                        <u><b style="color: darkorchid;">To Kill a Mockingbird</b></u>
+                    </td>
+                    <td>Author 1</td>
+                    <td>Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date:</td>
+                                <td>2021-07-20</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:</td>
+                                <td>256</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>978-9876543210</td>
+                            </tr>
+                        </table>
+                        <u><b style="color: darkorchid;">The Alchemist</b></u>
+                    </td>
+                    <td>Author 2</td>
+                    <td>Mystery</td>
+                    <td>Unavailable</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date:</td>
+                                <td>2023-03-10</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:</td>
+                                <td>432</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>978-5678901234</td>
+                            </tr>
+                        </table>
+                        <u><b style="color: darkorchid;">The Time</b></u>
+                    </td>
+                    <td>Author 3</td>
+                    <td>Science Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date:</td>
+                                <td>2020-11-05</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:</td>
+                                <td>180</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>978-5432109876</td>
+                            </tr>
+                        </table>
+                        <u><b style="color: darkorchid;">Brave New World</b></u>
+                    </td>
+                    <td>Author 4</td>
+                    <td>Non-Fiction</td>
+                    <td>Available</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date:</td>
+                                <td>2022-09-30</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count:</td>
+                                <td>280</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN:</td>
+                                <td>978-2468135790</td>
+                            </tr>
+                        </table>
+                        <u><b style="color: darkorchid;">When breath becomes air</b></u>
+                    </td>
+                    <td>Author 5</td>
+                    <td>Romance</td>
+                    <td>Available</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <br><br><br>
+    
+
+    <section id="registration">
+        <center><u><h1>REGISTRATION FORM</h1></u></center>
+        <form id="registration-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth" name="date-of-birth" required>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="5" max="100" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
+
+
+
+
